@@ -1,38 +1,47 @@
 # CS458_FinalProject
 
 Problem
+
 The problem that we are trying to solve is to identify “highly influential” videos on a set of Youtube data. Influence is determined by the PageRank score of the video. Create an algorithm that can take YouTube datasets and find the K (determined by user) most influential videos in the dataset.
 
 Tasks
 
 Data Collection
+
 Extract the relevant YouTube data from the provided URL: http://netsg.cs.sfu.ca/youtubedata/.
 
 Data Preprocessing
+
 Handle missing values, remove duplicates, and address inconsistencies.
 Transform data into a suitable format, handling timestamps, text data, or categorical variables.
 Feature Selection: Choose relevant attributes for PageRank-based influence analysis.
 
 PageRank Algorithm
+
 Implement a PageRank algorithm to compute the influence scores for each video.
 A high PageRank score means the video has a high influence.
 
 Data Modeling
+
 Create a model of the YouTube network
 Nodes represent videos
 Edges represent connections between videos
 
 Identify Top K Most Influential Videos
+
 Rank the K most influential videos based on their PageRank scores in descending order.
 
 Data Analysis
+
 Analyze the selected K influential videos to understand their characteristics 
 Number of views, number of edges, category, and other attributes.
 
 Discussion & Conclusion
+
 Create visualizations to present the results effectively using graphs, charts, or plots to illustrate the relationships and trends discovered during analysis.
 
 Report & Presentation
+
 Create a PowerPoint presentation to communicate with the class the key findings and insights.
 Construct a report / repository on GitHub to document the entire data mining process, including data collection, preprocessing, modeling, analysis, and conclusions.
 

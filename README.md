@@ -44,7 +44,8 @@ The primary tool that we will need is Jupyter Notebook to keep track and build o
 
 Implementation/Evaluation Plan
 
-Learning How the Tools Work: Some of the tools are rather new to us and may take some time to figure out what they do and how they do it. For example, Hadoop and Spark are new tools that we have not used and will require time to see how they work. This is in addition to the mathematics and theory behind the PageRank algorithm.
+Learning How the Tools Work: Some of the tools are rather new to us and may take some time to figure out what they do and how they do it. For example, Hadoop and
+Spark are new tools that we have not used and will require time to see how they work. This is in addition to the mathematics and theory behind the PageRank algorithm.
 
 Data Summary: Look over the data and understand what each attribute of the data represents, the range of values, the meaning or encoding of the data, and the types of the data. We must also visualize the data and find potential outliers and consider why they are outliers.
 
@@ -52,8 +53,7 @@ Data Preprocessing: From the data, decisions need to be made in order to make th
 
 Data Analysis: We will use the tools in order to score each and every video inside our datasets for the PageRank algorithm. From these, we will sort the scores and videos associated with them and find which videos are incredibly influential. 
 
-Data Conclusions: We will then look at how these videos compare to “non-influential” videos in order to find out why the algorithm selected them as “influential” (consider their attributes) and build a theory on how a video is more influential than another video. Once we make these conclusions, they become hypotheses.
-Testing Hypothesis: We can recreate these properties through manual test samples and figure out if what we have concluded are true or false.
+Data Conclusions: We will then look at how these videos compare to “non-influential” videos in order to find out why the algorithm selected them as “influential” (consider their attributes) and build a theory on how a video is more influential than another video. Once we make these conclusions, they become hypotheses. Testing Hypothesis: We can recreate these properties through manual test samples and figure out if what we have concluded are true or false.
 
 
 Timeline and Milestones
